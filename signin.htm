@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;  
+                          
+        }
+        #form{
+            background: grey;
+            color: white;
+            margin: 20%;
+            text-align: center;
+            border-radius: 10px;
+     <!-- background: url("sasuke.jpg");-->
+           
+        }
+        ::placeholder{
+            color: gold;
+            padding: 0.2rem;
+        }
+        input{
+            background: black;
+            font-weight: bold;
+            color: Gold;
+            outline: none;
+        }
+        button{
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            height: 2rem;
+            
+        }
+       
+       /* @media only screen and (min-width: 768px;) and (max-width: 1024px;){
+             .mode{
+               margin: 200px;
+            }
+        }*/
+    </style>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+   
+  <div id="form">
+       <div style="margin-left: 5rem; margin-top: 50%; display: flex; flex-direction: row; gap:3px;" class="mode">
+    <button style="color: white; background: black;" onclick="darkMode();" id="mode">Dark Mode</button> <br>
+   <button style="color: black; background: white;" onclick="LightMode();">Light Mode</button> </div> <br>
+    <h1 style="color:#372e8a">Sign In</h1><br>
+   <input type="text" id="myInput1" autocapitalize="words" placeholder="🚹 Username or Email" style="outline: none;"><br>
+   <a href="" style="margin-left: 4rem; font-size: small">forgotten password?</a> <br>
+   <input type="password" id="myInput2" autocapitalize="words" placeholder="🔐 password">
+   <br>
+<br> <br><button onclick ="checkInput()" style="width:7rem; background: Linear-gradient(#cf80ff5d, #3551d2cf); outline: none; border-radius: 10px;">Sign In</button>
+<br><br>
+</div>
+<!--trying to add a contrast switch from high to low by dragging the input range toggle
+<div style="margin: 20rem;">
+<input type="range" id="slider">
+<span id="display">0</span>
+</div>
+<script>
+    slider.value=0;
+    
+    setInterval(() => {
+    slider.value++;
+    display.innerHTML = slider.value;       
+    }, 100);
+</script> -->
+<!--
+<input type="text" value="this is readonly" readonly/>
+   This is how to add a video content <br><br>
+   <video controls poster="sasuke.jpg" width="100px" style="padding: 70px;">
+    <source src="jugunu.mp4">
+        </video> -->
+<!-- <div id="output" style="background-color: blue; color: white; border-radius: 5px gold;"></div>-->
+</body>
+<script src="user.js"></script>
+</html>
