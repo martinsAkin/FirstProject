@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Faustina:wght@300;500;700&family=Rubik:wght@400;500&family=Old+Standard+TT&display=swap');
+ 
+
+*{
+    padding: 0.2rem;
+    margin: 0; 
+    font-family: 'Chakra Petch', sans-serif;
+}
+#header{
+    display: flex;
+   /*  background: red; */
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar{
+    display: flex;
+}
+#search{
+     width: 20rem; 
+     border-radius: 15px 0 0 15px; 
+     padding-left: 0.5rem; 
+     border: 0.5px solid grey;"
+     border-right: 0;
+}
+aside{
+    /* background: yellow; */
+    width: 18rem;
+    list-style: none;
+    /* background: red; */
+    /* text-align: center; */
+    align-item: center;
+}
+#board button{
+    border: none;
+    outline: none; 
+    background: #ffeaff;
+    border-radius: 5px;
+    
+}
+aside li i{
+    font-size: 30px;
+    padding-right: 0.4rem;    
+    padding-left: 0.5rem;  
+}
+.vid-cards{
+   /*  background: Gold; */
+   /*  text-align: center; */
+    /* width: 15rem; */
+    /* height: 10rem; */
+    border-radius: 10px;
+}
+hr{
+    border: 2px solid black;
+    height: 1px;
+}
+.divider {
+      border-top: 1px solid grey; /* Thin black stroke */
+      margin: 10px 0; /* Adjust the margin as needed */
+  }
+  #videos img{
+      border-radius: 10px;
+  }
+  #board{
+      gap: 1rem;
+  }
